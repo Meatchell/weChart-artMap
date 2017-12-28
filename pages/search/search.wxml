@@ -1,0 +1,18 @@
+<view class="container">
+    <view class="search-bg">
+        <input bindconfirm="search" confirm-type="search" value="{{searchData}}" type="text" placeholder="{{searchPlaceholder}}"/>
+        <text>取消</text>
+        <image src="http://art-map.oss-cn-beijing.aliyuncs.com/search_input.png" class="search">
+
+        </image>
+        <image bindtap="remove" src="http://art-map.oss-cn-beijing.aliyuncs.com/remove_input.png" class="remove"></image>
+    </view>
+    <view class="search-result">
+        <view  wx:for="{{artTypeList}}" wx:for-item="item" >
+            <image  mode="widthFix"  src="https://art-map.oss-cn-beijing.aliyuncs.com/{{item.coverimg}}"></image>
+            <text>{{item.name}}</text>
+            <text class="price">￥{{item.price}}</text>
+        </view>
+    </view>
+
+</view>

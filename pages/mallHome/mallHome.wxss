@@ -1,0 +1,175 @@
+.banner {
+    width: 100%;
+    height: 347rpx;
+    position: relative;
+}
+.banner .search {
+    width: 60rpx;
+    height: 60rpx;
+    right: 30rpx;
+    top:30rpx;
+    position: absolute;
+    z-index:2;
+    background: url("https://art-map.oss-cn-beijing.aliyuncs.com/2_10.png");
+    background-size: cover;
+}
+.classify {
+    height:calc(100vh - 355rpx);
+    padding-top: 8rpx;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.classify .right {
+    margin-left: 0.8%;
+    width: 66.5%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.classify .left {
+    height: 100%;
+    width: 33%;
+    position: relative;
+}
+.classify .left view {
+    position: absolute;
+}
+.classify .right view {
+    position: absolute;
+}
+.classify .left view image {
+    position: absolute;
+}
+.classify .right view image{
+    position: absolute;
+}
+.watercolor {
+    width: 100%;
+    height: 65.7%;
+    background-color: #d3d3d3;
+    top:0;
+}
+.watercolor .en {
+    width: 54rpx;
+    height: 473rpx;
+    left:25rpx;
+    top:18rpx;
+}
+.watercolor .cn {
+    width: 134rpx;
+    height: 85rpx;
+    right: 26rpx;
+    bottom: 18rpx;
+}
+.chinese-painting {
+    width: 49.3%;
+    height: 49.4% ;
+    background-color: #b6b6b6;
+}
+.chinese-painting .en {
+    width: 19rpx;
+    height: 228rpx;
+    left: 21rpx;
+    top:19rpx;
+}
+.chinese-painting .cn {
+    width: 42rpx;
+    height: 100rpx;
+    right: 19rpx;
+    top:17rpx;
+}
+.ollpainting {
+    width: 49.3%;
+    height: 49.4% ;
+    background-color: #8b8b8b;
+    /*margin-left: 1%;*/
+    right: 0;
+}
+.ollpainting .en {
+    width: 189rpx;
+    height: 22rpx;
+    top:15rpx;
+    right:12rpx;
+}
+.ollpainting .cn {
+    width: 94rpx;
+    height: 49rpx;
+    left:27rpx;
+    bottom:17rpx;
+}
+.sculpture {
+    width: 49.3%;
+    height: 49.4%;
+    background-color: #6f6f6f;
+    bottom:0;
+}
+.sculpture .en {
+    width: 152rpx;
+    height: 22rpx;
+    top:25rpx;
+    right: 19rpx;
+}
+.sculpture .cn {
+    width: 48rpx;
+    height: 99rpx;
+    left:21rpx;
+    bottom: 21rpx;
+}
+
+.prints {
+    width: 49.5%;
+    height: 49.4% ;
+    background-color: #424242;
+    right: 0;
+    bottom: 0;
+}
+.prints .en {
+    width: 21rpx;
+    height: 95rpx;
+    top:26rpx;
+    left:26rpx;
+}
+.prints .cn {
+    width: 100rpx;
+    height: 50rpx;
+    right: 24rpx;
+    bottom: 19rpx;
+}
+.composite-materials {
+    height: 33.71%;
+    width: 100%;
+    background-color: #2a2a2a;
+    bottom:0;
+}
+.composite-materials .en {
+    width: 64rpx;
+    height: 171rpx;
+    top:77rpx;
+    left:28rpx;
+}
+.composite-materials .cn {
+    width: 52rpx;
+    height: 220rpx;
+    top:37rpx;
+    right: 14rpx;
+}
+.lacquer-painting {
+    width: 100%;
+    height: 33.71%;
+    background-color: #141414;
+    bottom: 0;
+}
+.lacquer-painting .cn {
+    width: 448rpx;
+    height: 227rpx;
+    top:25rpx;
+    left:25rpx;
+}
+.warp {
+    width: 100%;
+    height: 65.7%;
+    position: absolute;
+}

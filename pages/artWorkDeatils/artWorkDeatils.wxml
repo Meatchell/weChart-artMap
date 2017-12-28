@@ -1,0 +1,37 @@
+<view class="container">
+    <view class="img">
+        <view class="phone"></view>
+    </view>
+    <view class="info">
+        <view class="warp">
+            <view class="introduction">
+                <view class="introduction-tit">
+                    作品介绍:
+                </view>
+                <view class="introduction-content">
+                    在威尼斯突发感想
+                </view>
+                <view class="line">
+                    <image src="http://art-map.oss-cn-beijing.aliyuncs.com/line.png"></image>
+                </view>
+            </view>
+            <view class="author">
+                <view class="author-tit">作者介绍:</view>
+                <view class="author-content">
+                    徐冰(1995-)祖籍江西萍乡毕业于江西科...
+                </view>
+            </view>
+        </view>
+        <view class="contact">
+            <view class="price">
+                <div class="warp2">
+                    <view>￥2000</view>
+                    <view class="post">邮费：包邮</view>
+                </div>
+            </view>
+            <view class="buy">
+                立即购买
+            </view>
+        </view>
+    </view>
+</view>

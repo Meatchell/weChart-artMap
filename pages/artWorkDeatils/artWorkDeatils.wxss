@@ -1,0 +1,120 @@
+.container {
+    width: 100%;
+    height: 100vh;
+}
+.phone {
+    position: absolute;
+    width: 62rpx;
+    height: 62rpx;
+    top:34rpx;
+    right: 28rpx;
+    background-image: url("https://art-map.oss-cn-beijing.aliyuncs.com/phone.png");
+    background-size: cover;
+    z-index: 3;
+}
+.container .img {
+    width: 100%;
+    height: calc(100% - 250rpx);
+    background-image: url("https://art-map.oss-cn-beijing.aliyuncs.com/6_06.png");
+    background-size: cover;
+}
+.container .info {
+    width: 100%;
+    height: 250rpx;
+    display: flex;
+}
+.info .warp {
+    width: 65%;
+    height: 100%;
+    background-color: #d6d6d6;
+    display: flex;
+}
+.introduction {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    /*padding-right: 3rpx;*/
+    box-sizing: border-box;
+    padding:40rpx 5rpx 30rpx 25rpx;
+
+}
+.author {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding:40rpx 5rpx 30rpx 25rpx;
+
+}
+.introduction-tit {
+    color: #929292;
+    font-size: 30rpx;
+    margin-bottom: 20rpx;
+}
+.introduction-content {
+    color: #434343;
+    font-size: 30rpx;
+}
+.introduction .line {
+    width: 3rpx;
+    height: 184rpx;
+    position: absolute;
+    right: 0;
+    top:33rpx;
+}
+/*.author {*/
+    /*width: 50%;*/
+    /*height: 100%;*/
+/*}*/
+.author-tit {
+    color: #929292;
+    font-size: 30rpx;
+    margin-bottom: 20rpx;
+}
+.author-content {
+    color: #434343;
+    font-size: 30rpx;
+}
+.line image {
+    width: 100%;
+    height: 100%;
+}
+.info .contact {
+    width: 35%;
+    height: 100%;
+    /*position: relative;*/
+    /*display: flex;*/
+}
+.contact .price {
+    position: relative;
+    /*top:50%;*/
+    /*transform: ;*/
+    width: 100%;
+    height: 153rpx;
+    background-color: #000;
+    color: #fff;
+}
+.price .warp2 {
+    position: absolute;
+    height: auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    background-color: transparent;
+}
+.price view {
+    display: block;
+    text-align: center;
+}
+.price .post {
+    font-size: 12px;
+}
+
+.contact .buy {
+    width: 100%;
+    height: 97rpx;
+    color: #000;
+    text-align: center;
+    line-height: 97rpx;
+}
+

@@ -1,0 +1,65 @@
+<view class="container">
+    <view class="head-img">
+        <image src="../../imgs/museum-main.png"></image>
+        <view class="museum-name">
+            <text class="museum-name-cn">深圳OTC当代艺术中心</text>
+            <text class="museum-name-en">Shenzhen OTC Contemporary Art Conter</text>
+        </view>
+    </view>
+    <view class="line"></view>
+    <view class="mune">
+        <view class="works-show">
+            <image src="../../imgs/works-show.png"></image>
+        </view>
+        <view class="telephone-counseling">
+            <image src="../../imgs/telephone-counseling.png"></image>
+        </view>
+        <view class="exhibition-information">
+            <image src="../../imgs/exhibition-information.png"></image>
+        </view>
+    </view>
+    <view class="line"></view>
+    <view class="about-museum">
+        <view class="about-tit">
+            <image src="../../imgs/6_25.png"></image>
+            <view class="tit">
+                关于艺术馆
+            </view>
+        </view>
+        <view class="about-content">
+                OCT当代艺术中心（英文名称OCT-Contemporary Art Terminal，简称OCAT）隶属于何香凝美术馆，它是中国目前唯一一所隶属于国家级美术馆的非盈利性当代艺术机构。OCAT于2005年1月28日在深圳正式成立，在上海设有分展区
+        </view>
+    </view>
+    <view class="line"></view>
+    <view class="exhibition-works">
+        <view class="exhibition-tit">
+            <image src="../../imgs/6_21.png"></image>
+            <view class="tit">
+                作品展示 
+            </view>
+        </view>
+        <view class="exhibition-content" >
+            <scroll-view class="warp" scroll-x="true">
+                <image wx:for="{{artGalleryDeatils.artworks}}" wx:for-item="item"  mode="aspectFit"  src="{{item.coverimg}}" style="width:{{item.coverimgInfo}}rpx; top:{{item.top}}rpx;left:{{item.left}}rpx"></image>
+            </scroll-view>
+        </view>
+    </view>
+    <view class="line"></view>
+    <view class="Exhibition-information">
+        <view class="Exhibition-tit">
+            <image src="../../imgs/6_25.png"></image>
+            <view class="tit">
+                展览信息
+            </view>
+        </view>
+        <view class="Exhibition-content">
+            <text>地址：</text>
+            <text>开发时间：</text>
+            <text>公交：</text>
+            <text>地铁：</text>
+        </view>
+    </view>
+
+
+
+</view>

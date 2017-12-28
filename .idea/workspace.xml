@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98897d61-a2c0-4e23-9b7d-cae94d089d71" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="artWorkDeatils.wxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/artWorkDeatils/artWorkDeatils.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>WeChat</find>
+      <find>user</find>
+      <find>getApp</find>
+      <find>getUserInfo</find>
+      <find>artMuseumDeatils</find>
+      <find>320</find>
+      <find>warp</find>
+      <find>33</find>
+      <find>left</find>
+      <find>right</find>
+      <find>composite-materials</find>
+      <find>lime</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>50</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.idea/inspectionProfiles" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pages/artMuseumDeatils/artMuseumDeatails.js" />
+        <option value="$PROJECT_DIR$/pages/artMuseumDeatils/artMuseumDetails.wxml" />
+        <option value="$PROJECT_DIR$/pages/artMuseumDeatils/artMuseumDeatails.wxss" />
+        <option value="$PROJECT_DIR$/utils/test.js" />
+        <option value="$PROJECT_DIR$/pages/index/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/index/index.js" />
+        <option value="$PROJECT_DIR$/app.wxss" />
+        <option value="$PROJECT_DIR$/pages/index/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/artMuseumDeatils/artMuseumDeatils.wxss" />
+        <option value="$PROJECT_DIR$/pages/artMuseumDeatils/artMuseumDeatils.wxml" />
+        <option value="$PROJECT_DIR$/pages/artMuseumDeatils/artMuseumDeatils.js" />
+        <option value="$PROJECT_DIR$/pages/logs/logs.js" />
+        <option value="$PROJECT_DIR$/pages/mallHome/mallHome.wxss" />
+        <option value="$PROJECT_DIR$/pages/mallHome/mallHome.wxml" />
+        <option value="$PROJECT_DIR$/pages/mallHome/mallHome.js" />
+        <option value="$PROJECT_DIR$/pages/search/search.js" />
+        <option value="$PROJECT_DIR$/pages/search/search.wxss" />
+        <option value="$PROJECT_DIR$/pages/search/search.wxml" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/pages/artWorkDeatils/artWorkDeatils.js" />
+        <option value="$PROJECT_DIR$/pages/artWorkDeatils/artWorkDeatils.wxss" />
+        <option value="$PROJECT_DIR$/pages/artWorkDeatils/artWorkDeatils.wxml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="47" />
+    <option name="y" value="-28" />
+    <option name="width" value="1612" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="artMapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="artMapApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/inspectionProfiles" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\WeChat\artMapApp\imgs" />
+      <recent name="D:\code\WeChat\artMapApp\pages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Meatchell\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98897d61-a2c0-4e23-9b7d-cae94d089d71" name="Default" comment="" />
+      <created>1512736858177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512736858177</updated>
+      <workItem from="1512736859491" duration="796000" />
+      <workItem from="1512822760678" duration="3758000" />
+      <workItem from="1512827473613" duration="6248000" />
+      <workItem from="1513042924923" duration="1258000" />
+      <workItem from="1513081323196" duration="7755000" />
+      <workItem from="1513168415691" duration="6425000" />
+      <workItem from="1513212694788" duration="3364000" />
+      <workItem from="1513253840861" duration="3464000" />
+      <workItem from="1513298969030" duration="2528000" />
+      <workItem from="1513426094533" duration="9588000" />
+      <workItem from="1513495492816" duration="17943000" />
+      <workItem from="1513599002436" duration="7686000" />
+      <workItem from="1513688006576" duration="1179000" />
+      <workItem from="1513689321796" duration="10182000" />
+      <workItem from="1513768995273" duration="12558000" />
+      <workItem from="1513860991185" duration="11242000" />
+      <workItem from="1513909104350" duration="1128000" />
+      <workItem from="1514028015305" duration="5387000" />
+      <workItem from="1514209077043" duration="7168000" />
+      <workItem from="1514298687047" duration="5578000" />
+      <workItem from="1514378545708" duration="11994000" />
+      <workItem from="1514422518193" duration="1268000" />
+      <workItem from="1514467186816" duration="274000" />
+      <workItem from="1514467612497" duration="609000" />
+      <workItem from="1514468243825" duration="209000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="139589000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="7" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19978859" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js" />
+    <entry file="file://$PROJECT_DIR$/app.js" />
+    <entry file="file://$PROJECT_DIR$/app.json" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml" />
+    <entry file="file://$PROJECT_DIR$/app.wxss" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js" />
+    <entry file="file://$PROJECT_DIR$/app.js" />
+    <entry file="file://$PROJECT_DIR$/app.json" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml" />
+    <entry file="file://$PROJECT_DIR$/app.wxss" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss" />
+    <entry file="file://$PROJECT_DIR$/app.js" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml" />
+    <entry file="file://$PROJECT_DIR$/app.json" />
+    <entry file="file://$PROJECT_DIR$/app.wxss" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js" />
+    <entry file="file://$PROJECT_DIR$/pages/logs/logs.wxss" />
+    <entry file="file://$PROJECT_DIR$/pages/logs/logs.wxml" />
+    <entry file="file://$PROJECT_DIR$/app.js" />
+    <entry file="file://$PROJECT_DIR$/imgs/telephone-counseling.png" />
+    <entry file="file://$PROJECT_DIR$/imgs/6_17.png" />
+    <entry file="file://$PROJECT_DIR$/utils/util.js" />
+    <entry file="file://$PROJECT_DIR$/imgs/mall-entrance.png" />
+    <entry file="file://$PROJECT_DIR$/utils/test.js" />
+    <entry file="file://$PROJECT_DIR$/imgs/6_25.png" />
+    <entry file="file://$PROJECT_DIR$/imgs/6_04.png" />
+    <entry file="file://$PROJECT_DIR$/imgs/6_15.png" />
+    <entry file="file://$PROJECT_DIR$/imgs/6_13.png" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss" />
+    <entry file="file://$PROJECT_DIR$/app.wxss" />
+    <entry file="file://$PROJECT_DIR$/pages/logs/logs.js" />
+    <entry file="file://$PROJECT_DIR$/pages/artMuseumDeatils/artMuseumDeatils.wxss" />
+    <entry file="file://$PROJECT_DIR$/pages/mallHome/mallHome.wxss" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml" />
+    <entry file="file://$PROJECT_DIR$/pages/artMuseumDeatils/artMuseumDeatils.wxml" />
+    <entry file="file://$PROJECT_DIR$/pages/mallHome/mallHome.wxml" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js" />
+    <entry file="file://$PROJECT_DIR$/pages/artMuseumDeatils/artMuseumDeatils.js" />
+    <entry file="file://$PROJECT_DIR$/pages/logs/logs.json" />
+    <entry file="file://$PROJECT_DIR$/pages/search/search.js" />
+    <entry file="file://$PROJECT_DIR$/pages/search/search.wxss" />
+    <entry file="file://$PROJECT_DIR$/pages/search/search.wxml" />
+    <entry file="file://$PROJECT_DIR$/pages/mallHome/mallHome.js" />
+    <entry file="file://$PROJECT_DIR$/app.json" />
+    <entry file="file://$PROJECT_DIR$/pages/artWorkDeatils/artWorkDeatils.js" />
+    <entry file="file://$PROJECT_DIR$/pages/artWorkDeatils/artWorkDeatils.wxss" />
+    <entry file="file://$PROJECT_DIR$/pages/artWorkDeatils/artWorkDeatils.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
