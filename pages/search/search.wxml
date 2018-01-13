@@ -1,18 +1,22 @@
 <view class="container">
     <view class="search-bg">
-        <input bindconfirm="search" confirm-type="search" value="{{searchData}}" type="text" placeholder="{{searchPlaceholder}}"/>
-        <text>取消</text>
-        <image src="http://art-map.oss-cn-beijing.aliyuncs.com/search_input.png" class="search">
-
+        <input bindconfirm="search" focus="{{isFocus}}" confirm-type="search"  type="text"
+               placeholder="{{searchPlaceholder}}"/>
+        <text bindtap="Toback">取消</text>
+        <image src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/search_input.png" class="search">
         </image>
-        <image bindtap="remove" src="http://art-map.oss-cn-beijing.aliyuncs.com/remove_input.png" class="remove"></image>
+        <image bindtap="remove" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/remove_input.png" class="remove"></image>
     </view>
-    <view class="search-result">
-        <view  wx:for="{{artTypeList}}" wx:for-item="item" >
-            <image  mode="widthFix"  src="https://art-map.oss-cn-beijing.aliyuncs.com/{{item.coverimg}}"></image>
-            <text>{{item.name}}</text>
-            <text class="price">￥{{item.price}}</text>
+    <scroll-view class="search-result" scroll-y="true"  bindscrolltolower="searchScrollLower">
+        <view class="warp">
+            <view bindtap="ToArtWorkDeatils" data-artGalleryId="{{item.artwork_id}}" class="item"  wx:for="{{artTypeList}}" wx:for-item="item">
+                <!--<image mode="widthFix" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/{{item.coverimg}}"></image>-->
+                <image mode="widthFix" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/{{item.coverimg}}?x-oss-process=image/resize,m_lfit,h_200"></image>
+                <text>{{item.name}}</text>
+                <text class="price">￥{{item.price}}</text>
+            </view>
         </view>
-    </view>
-
+        <view class="loading" hidden="{{!searchLoading}}">正在载入更多...</view>
+        <view class="loading complete" hidden="{{!searchLoadingComplete}}">已加载全部</view>
+    </scroll-view>
 </view>

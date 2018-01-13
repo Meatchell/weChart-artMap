@@ -1,0 +1,25 @@
+<view class="container">
+    <view class="search-bg">
+        <input bindconfirm="mysearch" confirm-type="search"  focus="{{isFocus}}" type="text"/>
+        <text bindtap="Toback">取消</text>
+        <image src="http://art-map.oss-cn-beijing.aliyuncs.com/search_input.png" class="search"></image>
+        <image bindtap="remove" src="http://art-map.oss-cn-beijing.aliyuncs.com/remove_input.png" class="remove"></image>
+    </view>
+    <view class="search-result">
+        <view class="item" wx:for="{{searchData}}" wx:for-item="item">
+            <view class="warp">
+                <view bindtap="ToArtDeatils"  class="left">
+                    <text class="tit">{{item.name}}</text>
+                    <text class="tips">{{item.address}}</text>
+                </view>
+                <view data-artmuseumid="{{item.artGallery_id}}" bindtap="backMap" data-latitude="{{item.latitude}}" data-longitude="{{item.logittude}}" class="right">
+                    <view class="location-image">
+                    </view>
+                    <view class="text">
+                        查看位置
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -8,15 +8,19 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.7.1",
-	"appid": "wx3f4c439fdfddcd9d",
-	"projectname": "artMapDevelopment",
+	"libVersion": "1.6.6",
+	"appid": "wxfae3aa4e0b89518a",
+	"projectname": "%E6%B7%B1%E5%9C%B3%E8%89%BA%E6%9C%AF%E5%9C%B0%E5%9B%BE",
 	"condition": {
 		"search": {
 			"current": -1,
 			"list": []
 		},
 		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
 			"current": -1,
 			"list": []
 		},

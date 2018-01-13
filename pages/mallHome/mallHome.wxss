@@ -10,7 +10,7 @@
     top:30rpx;
     position: absolute;
     z-index:2;
-    background: url("https://art-map.oss-cn-beijing.aliyuncs.com/2_10.png");
+    background: url("https://artmap-img.oss-cn-shenzhen.aliyuncs.com/2_10.png");
     background-size: cover;
 }
 .classify {

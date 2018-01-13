@@ -5,17 +5,11 @@ const app = getApp()
 Page({
     data: {
         artgallery:[],
-        userInfo: {},
-        hasUserInfo: false,
-        canIUse: wx.canIUse('button.open-type.getUserInfo'),
-        imageArray:[]
+        imageArray:[],
+        showMoreInfo:[],
+        url:''
     },
     //事件处理函数
-    bindViewTap: function () {
-        wx.navigateTo({
-            url: '../logs/logs'
-        })
-    },
     onLoad: function () {
 
     },
@@ -29,11 +23,11 @@ Page({
     },
     updateDataSource: function (data) {
         var imageArray = data.data;
-        console.log(imageArray)
         for (var i = 0; i < imageArray.length; i++) {
             var obj = imageArray[i];
-            obj.img = "https://art-map.oss-cn-beijing.aliyuncs.com/" + obj.imagename;
+            obj.img = "https://artmap-img.oss-cn-shenzhen.aliyuncs.com/" + obj.imagename;
         }
+        console.log(imageArray)
         this.setData({
             imageArray: imageArray,
         })
@@ -41,7 +35,7 @@ Page({
     getCarouseData() {
         var page = this;
         wx.request({
-            url: 'https://www.huangli13.cn/v1/advertisement',
+            url: 'https://www.szartmap.com/v1/advertisement',
             data: {},
             method: 'GET',
             success: function (res) {
@@ -61,11 +55,21 @@ Page({
     },
 
     ToSearch:function(event){
-        console.log(event,event.currentTarget.dataset.search)
         wx.navigateTo({
             url: '../search/search?searchData='+event.currentTarget.dataset.search+"&searchType="+event.currentTarget.dataset.type,
         })
-        console.log(event)
+    },
+    showMoreInfo:function(e){
+        console.log(e)
+
+            if(e.currentTarget.dataset.contentimg){
+                wx.previewImage({
+                    urls: ["https://artmap-img.oss-cn-shenzhen.aliyuncs.com/"+e.currentTarget.dataset.contentimg]
+                })
+            }
+
+        // }
+
     }
 })
 

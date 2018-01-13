@@ -1,24 +1,5 @@
 
 <!--index.wxml-->
 <view class="container">
-  
-  <!--头像显示-->
-  <!--<view class="userinfo">-->
-    <!--<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>-->
-    <!--<block wx:else>-->
-      <!--<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>-->
-      <!--<text class="userinfo-nickname">{{userInfo.nickName}}</text>-->
-    <!--</block>-->
-  <!--</view>-->
-
-  <!--<map class="map"></map>-->
-  <map bindcontroltap="controltap" bindmarkertap="markertap" longitude="113.5" latitude="22.37" scale="8" controls="{{controls}}" markers="{{artgallery}}"></map>
-  <!--<view wx:for="{{artgallery}}" xw:for-item="item">-->
-    <!--<text>{{item.name}}</text>-->
-  <!--</view>-->
-
-  <!--<view bindtap="ToMallHome" class="mall-entrance">-->
-      <!--<image src="http://art-map.oss-cn-beijing.aliyuncs.com/1_25.png"></image>-->
-  <!--</view>-->
-
+  <map id="myMap" bindtap="mapClick" include-points="{{incloude}}"  show-location="true" markers="{{myMarkers}}"  bindcontroltap="controltap" bindcallouttap="calloutap"  longitude="{{longitude}}" latitude="{{latitude}}"  scale="{{scale}}" controls="{{controls}}" ></map>
 </view>

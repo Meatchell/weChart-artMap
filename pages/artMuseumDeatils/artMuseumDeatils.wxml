@@ -1,20 +1,21 @@
-<view class="container">
+<scroll-view style="height: 100vh" class="container" scroll-into-view="{{toView}}" scroll-y="true" scroll-with-animation="true">
     <view class="head-img">
-        <image src="../../imgs/museum-main.png"></image>
+
+        <image  mode="widthFix" src="http://artmap-img.oss-cn-shenzhen.aliyuncs.com/{{imageName}}?x-oss-process=image/resize,m_lfit,h_500"></image>
         <view class="museum-name">
-            <text class="museum-name-cn">深圳OTC当代艺术中心</text>
-            <text class="museum-name-en">Shenzhen OTC Contemporary Art Conter</text>
+            <text class="museum-name-cn">{{name}}</text>
+            <text class="museum-name-en">{{englishName}}</text>
         </view>
     </view>
     <view class="line"></view>
     <view class="mune">
-        <view class="works-show">
+        <view bindtap="scrollToViewFn" data-myid="d1" class="works-show">
             <image src="../../imgs/works-show.png"></image>
         </view>
-        <view class="telephone-counseling">
+        <view bindtap="calling" class="telephone-counseling">
             <image src="../../imgs/telephone-counseling.png"></image>
         </view>
-        <view class="exhibition-information">
+        <view bindtap="scrollToViewFn" data-myid="d2" class="exhibition-information">
             <image src="../../imgs/exhibition-information.png"></image>
         </view>
     </view>
@@ -27,39 +28,63 @@
             </view>
         </view>
         <view class="about-content">
-                OCT当代艺术中心（英文名称OCT-Contemporary Art Terminal，简称OCAT）隶属于何香凝美术馆，它是中国目前唯一一所隶属于国家级美术馆的非盈利性当代艺术机构。OCAT于2005年1月28日在深圳正式成立，在上海设有分展区
+            <view>{{describe}} <text hidden="{{showPoint}}"> ...</text></view>
+            <image wx:if="{{showMore}}" bindtap="showMore"  style="margin-top:10rpx;display:block;width: 123rpx; height: 24rpx" src="{{showMoreImg}}"></image>
         </view>
     </view>
     <view class="line"></view>
     <view class="exhibition-works">
         <view class="exhibition-tit">
             <image src="../../imgs/6_21.png"></image>
-            <view class="tit">
+            <view class="tit" id="d1">
                 作品展示 
             </view>
         </view>
         <view class="exhibition-content" >
             <scroll-view class="warp" scroll-x="true">
-                <image wx:for="{{artGalleryDeatils.artworks}}" wx:for-item="item"  mode="aspectFit"  src="{{item.coverimg}}" style="width:{{item.coverimgInfo}}rpx; top:{{item.top}}rpx;left:{{item.left}}rpx"></image>
+                <image wx:for="{{artGalleryDeatils.artworks}}" wx:for-item="item" data-mysrc="{{item.view}}" bindtap="showView" mode="aspectFit"  src="{{item.coverimg}}" style="width:{{item.coverimgInfo}}rpx; top:{{item.top}}rpx;left:{{item.left}}rpx"></image>
             </scroll-view>
         </view>
     </view>
     <view class="line"></view>
+    <view class="showTheme" wx:if="{{showTheme}}">
+        <view style="padding-bottom: 20rpx" class="Exhibition-information">
+            <view class="Exhibition-tit">
+                <image src="../../imgs/6_25.png"></image>
+                <view class="tit" >
+                    展览信息
+                </view>
+            </view>
+            <view class="Exhibition-content">
+                <text style="margin-bottom: 10rpx">展览主题：{{exhibitiontheme}}</text>
+                <text style="margin-bottom: 10rpx">展览时间：{{exhibitionttime}}</text>
+
+                    <!--<text >开放时间：{{openTime}}</text><text style="color: red;margin-left: 29rpx">({{closetime}})</text>-->
+                <text >策展人：{{exhibitiontcurator}}</text>
+
+                <text style="margin-bottom: 10rpx">参展人员：{{exhibitioner}}</text>
+                <text style="margin-bottom: 10rpx">展览介绍：{{exhibitioninfo}}</text>
+            </view>
+        </view><view class="line"></view>
+    </view>
     <view class="Exhibition-information">
         <view class="Exhibition-tit">
             <image src="../../imgs/6_25.png"></image>
-            <view class="tit">
-                展览信息
+            <view class="tit" id="d2">
+                参观指南
             </view>
         </view>
         <view class="Exhibition-content">
-            <text>地址：</text>
-            <text>开发时间：</text>
-            <text>公交：</text>
-            <text>地铁：</text>
+            <text style="margin-bottom: 10rpx">地址：{{address}}</text>
+            <view style="display: flex;margin-bottom: 10rpx">
+                <!--<text >开放时间：{{openTime}}</text><text style="color: red;margin-left: 29rpx">({{closetime}})</text>-->
+                <text >开放时间：{{openTime}}</text><text wx:if="{{showCloseTime}}" style="color: red;margin-left: 29rpx">({{closetime}})</text>
+            </view>
+            <text style="margin-bottom: 10rpx">公交：{{transportationBus}}</text>
+            <text style="margin-bottom: 10rpx">地铁：{{transportationSubway}}</text>
         </view>
     </view>
 
 
 
-</view>
+</scroll-view>

@@ -2,11 +2,13 @@
 <!--index.wxml-->
 <view class="container">
     <view class="banner">
-        <view bindtap="ToSearch" class="search"></view>
+        <view bindtap="ToSearch" data-type="0" class="search"></view>
         <swiper style="height: 100%" indicator-dots="{{true}}" autoplay="{{true}}" interval="2000" duration="350">
             <block wx:for="{{imageArray}}">
                 <swiper-item>
-                    <image src="{{item.img}}" style="width:100%;height:100%" mode="scaleToFill"/>
+                    <!--<web-view src="{{item.url}}">-->
+                        <image bindtap="showMoreInfo" data-myUrl="{{item.url}}" data-contentImg="{{item.contentimg}}" src="{{item.img}}" style="width:100%;height:100%" mode="scaleToFill"/>
+                    <!--</web-view>-->
                 </swiper-item>
             </block>
         </swiper>
@@ -14,36 +16,37 @@
     <view class="classify">
         <view class="left">
             <view bindtap="ToSearch" data-search="水彩" data-type="3" class="watercolor">
-                <image class="en" src="https://art-map.oss-cn-beijing.aliyuncs.com/2_21.png"></image>
-                <image class="cn" src="https://art-map.oss-cn-beijing.aliyuncs.com/2_49.png"></image>
+                <image class="en" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/2_21.png"></image>
+                <image class="cn" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/2_49.png"></image>
             </view>
             <view  bindtap="ToSearch" data-search="综合材料" data-type="6" class="composite-materials">
-                <image class="en" src="https://art-map.oss-cn-beijing.aliyuncs.com/composite_en.png"></image>
-                <image class="cn" src="https://art-map.oss-cn-beijing.aliyuncs.com/composite_cn.png"></image>
+                <image class="en" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/composite_en.png"></image>
+                <image class="cn" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/composite_cn.png"></image>
             </view>
         </view>
        <view class="right">
            <view class="warp">
                <view  bindtap="ToSearch" data-search="国画" data-type="2" class="chinese-painting">
-               <image class="en" src="https://art-map.oss-cn-beijing.aliyuncs.com/2_30.png"></image>
-               <image class="cn" src="https://art-map.oss-cn-beijing.aliyuncs.com/2_27.png"></image>
+               <image class="en" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/2_30.png"></image>
+               <image class="cn" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/2_27.png"></image>
                </view>
                <view  bindtap="ToSearch" data-search="油画" data-type="1" class="ollpainting">
-               <image class="en" src="https://art-map.oss-cn-beijing.aliyuncs.com/2_24.png"></image>
-               <image class="cn" src="https://art-map.oss-cn-beijing.aliyuncs.com/2_35.png"></image>
+               <image class="en" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/2_24.png"></image>
+               <image class="cn" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/2_35.png"></image>
                </view>
                <view  bindtap="ToSearch" data-search="雕塑" data-type="7" class="sculpture">
-               <image class="en" src="https://art-map.oss-cn-beijing.aliyuncs.com/2_40.png"></image>
-               <image class="cn" src="https://art-map.oss-cn-beijing.aliyuncs.com/2_46.png"></image>
+               <image class="en" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/2_40.png"></image>
+               <image class="cn" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/2_46.png"></image>
                </view>
                <view  bindtap="ToSearch" data-search="版画" data-type="4" class="prints">
-               <image class="en" src="https://art-map.oss-cn-beijing.aliyuncs.com/2_42.png"></image>
-               <image class="cn" src="https://art-map.oss-cn-beijing.aliyuncs.com/2_53.png"></image>
+               <image class="en" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/2_42.png"></image>
+               <image class="cn" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/2_53.png"></image>
                </view>
            </view>
            <view  bindtap="ToSearch" data-search="漆画" data-type="5" class="lacquer-painting">
-               <image class="cn" src="https://art-map.oss-cn-beijing.aliyuncs.com/2_59-1.png"></image>
+               <image class="cn" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/2_59-1.png"></image>
            </view>
        </view>
     </view>
 </view>
+<!--<web-view src="{{url}}"></web-view>-->

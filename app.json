@@ -1,10 +1,11 @@
 {
   "pages":[
-    "pages/artWorkDeatils/artWorkDeatils",
-    "pages/search/search",
+    "pages/index/index",
     "pages/mallHome/mallHome",
     "pages/artMuseumDeatils/artMuseumDeatils",
-    "pages/index/index",
+    "pages/artMuseumSearch/artMuseumSearch",
+    "pages/artWorkDeatils/artWorkDeatils",
+    "pages/search/search",
     "pages/logs/logs"
   ],
   "window":{

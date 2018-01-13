@@ -1,6 +1,11 @@
 <view class="container">
     <view class="img">
-        <view class="phone"></view>
+        <image bindtap="showImg"  mode="aspectFill" src="https://artmap-img.oss-cn-shenzhen.aliyuncs.com/{{imgSrc}}"></image>
+        <view bindtap="calling" class="phone"></view>
+        <view class="art-name">
+            <text class="key-name">{{name}}</text>
+            <text class="key-word">{{subtitle}}</text>
+        </view>
     </view>
     <view class="info">
         <view class="warp">
@@ -8,29 +13,42 @@
                 <view class="introduction-tit">
                     作品介绍:
                 </view>
-                <view class="introduction-content">
-                    在威尼斯突发感想
+                <view  bindtap="showModal" data-target="intrduct" class="introduction-content">
+                    {{introductionText}}<text hidden="{{introductionLongStr}}">...</text>
                 </view>
                 <view class="line">
-                    <image src="http://art-map.oss-cn-beijing.aliyuncs.com/line.png"></image>
+                    <image src="http://artmap-img.oss-cn-shenzhen.aliyuncs.com/line.png"></image>
                 </view>
             </view>
             <view class="author">
                 <view class="author-tit">作者介绍:</view>
-                <view class="author-content">
-                    徐冰(1995-)祖籍江西萍乡毕业于江西科...
+                <view bindtap="showModal" data-target="author" class="author-content">
+                    {{authorText}} <text hidden="{{authorLongStr}}">...</text>
                 </view>
             </view>
         </view>
         <view class="contact">
             <view class="price">
                 <div class="warp2">
-                    <view>￥2000</view>
+                    <view>{{price}}</view>
                     <view class="post">邮费：包邮</view>
                 </div>
             </view>
-            <view class="buy">
+            <view class="buy" bindtap="buy">
                 立即购买
+            </view>
+        </view>
+    </view>
+    <view class="modal" wx:if="{{showModal}}">
+        <view class="modal-content">
+            <view class="modal-bg">
+                <image model="aspectFit" style="width: 612rpx" src="http://artmap-img.oss-cn-shenzhen.aliyuncs.com//modal-bg.png"></image>
+            </view>
+            <scroll-view scroll-y="true" class="modal-text">
+                {{deatils}}
+            </scroll-view>
+            <view bindtap="modalHidden" class="modal-hidden">
+                <image src="http://artmap-img.oss-cn-shenzhen.aliyuncs.com/modal_hidden.png"></image>
             </view>
         </view>
     </view>
